@@ -35,8 +35,8 @@ async function example(){
     try{
         // almacenar los datos en un array
         const arrayNacionalidades = await <a data-footnote-ref href="#user-content-fn-1">nacionalidades</a>();
-        // Verificar si los datos se obtuvieron correctamente
         
+        // Verificar si los datos se obtuvieron correctamente
         if (!Array.isArray(arrayNacionalidades)) {
             throw new Error("La respuesta no es un arreglo.");
         }
@@ -63,9 +63,9 @@ example(); // ejecuta la función y visualiza los datos obtenidos
 {% endstep %}
 
 {% step %}
-### Insert and edit your block
+### Implementa en la función que lo requieras
 
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
+Si necesitas implementar el elemento en una función puedes integrarlo de la siguiente forma, recuerda seguir el [paso 1](editor.md#datos-geograficos-locations) para que puedas manipular  los datos que requieras.
 {% endstep %}
 {% endstepper %}
 
