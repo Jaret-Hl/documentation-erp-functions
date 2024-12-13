@@ -19,7 +19,7 @@ Esta colección es para recopilar información geográfica de un usuario durante
 ### Importar la función
 
 ```javascript
-import { nationality } from "../locations/locations_v1.js";
+import { nacionalidades } from "../locations/nacionalidades.js";
 ```
 
 Si tienes dudas de como funciona un _import_ puedes dirigirte a la pagina MDN Web Docs y leer la [<mark style="color:orange;">documentación</mark> ](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)de como se integra a un modulo externo.
@@ -28,14 +28,13 @@ Si tienes dudas de como funciona un _import_ puedes dirigirte a la pagina MDN We
 {% step %}
 ### Invocar al elemento exportado&#x20;
 
-Al momento de estar invocando al elemento nationality podrás manipular la información que contiene y en el siguiente ejemplo se muestra como acceder a dicha información.
+Al momento de estar invocando al elemento nacionalidades podrás manipular la información que contiene y en el siguiente ejemplo se muestra como acceder a dicha información.
 
-```javascript
-// Modulo externo para manipular la colección
+<pre class="language-javascript"><code class="lang-javascript">// Modulo externo para manipular la colección
 async function example(){
     try{
         // almacenar los datos en un array
-        const arrayNacionalidades = await nationality();
+        const arrayNacionalidades = await <a data-footnote-ref href="#user-content-fn-1">nacionalidades</a>();
         // Verificar si los datos se obtuvieron correctamente
         
         if (!Array.isArray(arrayNacionalidades)) {
@@ -46,7 +45,7 @@ async function example(){
         const resultado = arrayNacionalidades.map(nacionalidad => {
             // manipular el objeto
             return {
-                codigo: nacionalidad.codigo_pais, // suponiendo que tiene un campo 'codigo'
+                codigo: nacionalidad.codigo, // suponiendo que tiene un campo 'codigo'
                 pais: nacionalidad.pais // suponiendo que tiene un campo 'pais'
             };
         });
@@ -59,8 +58,8 @@ async function example(){
     }
 }
 
-example();
-```
+example(); // ejecuta la función y visualiza los datos obtenidos
+</code></pre>
 {% endstep %}
 
 {% step %}
@@ -70,3 +69,6 @@ Click or press Enter to insert your block. From here, you’ll be able to edit i
 {% endstep %}
 {% endstepper %}
 
+
+
+[^1]: Recuerda importar el elemento.
