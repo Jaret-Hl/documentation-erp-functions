@@ -65,7 +65,7 @@ example(); // ejecuta la función y visualiza los datos obtenidos
 {% step %}
 ### Implementa en la función que lo requieras
 
-Si necesitas implementar el elemento en una función puedes integrarlo de la siguiente forma, recuerda seguir el [paso 1](editor.md#datos-geograficos-locations) para que puedas manipular  los datos que requieras.
+Si necesitas implementar el elemento en una función puedes integrarlo de la siguiente forma, recuerda seguir el [<mark style="color:orange;">paso 1</mark>](editor.md#datos-geograficos-locations) para que puedas manipular  los datos que requieras.
 {% endstep %}
 {% endstepper %}
 
