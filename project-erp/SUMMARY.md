@@ -2,16 +2,16 @@
 
 * [Bienvenido](README.md)
 
-## Inicio rápido
+## Getting Started
 
-* [Inicio rápido](inicio-rapido/quickstart.md)
-* [Indicaciones generales](inicio-rapido/publish-your-docs.md)
+* [Description](getting-started/description.md)
+* [Instalación](getting-started/instalacion.md)
 
-## Lo esencial
+## Statements and declarations
 
-* [Colecciones](lo-esencial/editor.md)
-* [Markdown](lo-esencial/markdown.md)
-* [Images & media](lo-esencial/images-and-media.md)
-* [Interactive blocks](lo-esencial/interactive-blocks.md)
-* [OpenAPI](lo-esencial/openapi.md)
-* [Integrations](lo-esencial/integrations.md)
+* [Colecciones](statements-and-declarations/editor.md)
+* [Markdown](statements-and-declarations/markdown.md)
+* [Images & media](statements-and-declarations/images-and-media.md)
+* [Interactive blocks](statements-and-declarations/interactive-blocks.md)
+* [OpenAPI](statements-and-declarations/openapi.md)
+* [Integrations](statements-and-declarations/integrations.md)
