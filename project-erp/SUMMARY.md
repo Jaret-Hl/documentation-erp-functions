@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Description](getting-started/description.md)
-* [Instalación](getting-started/instalacion.md)
+* [Instalación](getting-started/description.md)
+* [Descripción](getting-started/descripcion.md)
 
 ## Statements and declarations
 
