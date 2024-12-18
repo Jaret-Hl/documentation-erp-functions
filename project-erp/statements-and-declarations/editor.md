@@ -66,9 +66,31 @@ example(); // ejecuta la función y visualiza los datos obtenidos
 ### Implementa en la función que lo requieras
 
 Si necesitas implementar el elemento en una función puedes integrarlo de la siguiente forma, recuerda seguir el [<mark style="color:orange;">paso 1</mark>](editor.md#datos-geograficos-locations) para que puedas manipular  los datos que requieras.
+
+```javascript
+// Función para integrar un select dinámico con datos de nacionalidades
+async function integrateSelect() {
+    try {
+        // Obtener el array de nacionalidades de forma asíncrona
+        const [arrayNacionalidad] = await Promise.all([nacionalidades()]);
+
+        // Seleccionar el elemento <select> del DOM
+        const nacionalidadSelect = document.querySelector('#nacionalidad');
+
+        // Generar las opciones del select y establecer la opción seleccionada
+        nacionalidadSelect.innerHTML += arrayNacionalidad.map(n => {
+            const isSelected = data.id_nacionalidad === n.id_nacionalidad ? 'selected' : '';
+            return `<option value="${n.id_nacionalidad}" ${isSelected}>${n.nacionalidad}</option>`;
+        }).join('');
+
+    } catch (error) {
+        // Manejar errores y devolverlos para depuración
+        console.error("Error al integrar el select de nacionalidades:", error);
+        return error;
+    }
+}
+```
 {% endstep %}
 {% endstepper %}
-
-
 
 [^1]: Recuerda importar el elemento.
