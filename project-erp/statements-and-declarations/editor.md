@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: rectangle-history
 ---
 
 # Colecciones

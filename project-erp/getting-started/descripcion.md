@@ -1,8 +1,8 @@
 ---
-icon: globe-pointer
+icon: subtitles
 ---
 
-# Indicaciones generales
+# Descripción
 
 Una vez que hayas instalado el proyecto, es importante verificar que todo funcione correctamente antes de implementar tus nuevas configuraciones. Si deseas crear un nuevo módulo desde cero, puedes hacerlo sin problemas. Para orientarte, te recomendamos explorar el módulo de protocolos, ya que incluye funciones reutilizables que pueden servirte en el futuro. Esto te ayudará a evitar la duplicación de código y a mantener un desarrollo más eficiente y organizado.
 

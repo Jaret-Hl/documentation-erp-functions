@@ -1,8 +1,8 @@
 ---
-icon: bullseye-arrow
+icon: arrow-down-from-line
 ---
 
-# Inicio rápido
+# Instalación
 
 <div data-full-width="true"><figure><img src="../.gitbook/assets/STRUCTURE.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
