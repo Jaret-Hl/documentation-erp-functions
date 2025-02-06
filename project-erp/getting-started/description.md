@@ -16,8 +16,8 @@ Una excelente documentación comienza con una estructura bien organizada del pro
 
 Para clonar el proyecto dirígete al siguiente enlace ahí encontrarás el [<mark style="color:orange;">repositorio</mark>](https://github.com/Dzulmidnight/ERPOSMO). Recuerda que para el funcionamiento correcto del proyecto debes tener instalado:
 
-* **Web Server**: Apache or Nginx (recommended).
-* PHP
+* **Web Server**: Apache (recommended).
+* **PHP**
 * **Node.js**
 * **Composer**
 
