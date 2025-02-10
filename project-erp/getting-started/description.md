@@ -4,7 +4,7 @@ icon: arrow-down-from-line
 
 # Instalación
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/STRUCTURE.png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/structure-os.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Una excelente documentación comienza con una estructura bien organizada del proyecto. En la imagen se muestra cómo está estructurado, lo que te permitirá comprender su organización de manera clara y sencilla.
 
