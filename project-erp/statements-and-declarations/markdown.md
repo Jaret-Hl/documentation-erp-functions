@@ -36,5 +36,5 @@ Ten en cuenta que, según el concepto de un módulo, trabajarás con ellos a lo 
 
 {% hint style="info" %}
 Si cuentas con mas módulos, puedes crear nuevos e importarlos al módulo que tu requieras.\
-Toma en cuenta que debes llamar correctamente el modulo en la vista que lo requieras y configurar el script tipo "**module**".
+Toma en cuenta que debes llamar correctamente el modulo en la vista que lo requieras y recuerda configurar el script tipo "**module**".
 {% endhint %}
