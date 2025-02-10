@@ -6,7 +6,7 @@ icon: markdown
 
 En JavaScript, un módulo es un archivo que contiene funciones, clases o bibliotecas para un objetivo específico. Los módulos permiten organizar el código en partes reutilizables, lo que facilita su mantenimiento y mejora la legibilidad.
 
-<figure><img src="../.gitbook/assets/modules.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modules.png" alt=""><figcaption></figcaption></figure>
 
 Ten en cuenta que, según el concepto de un módulo, trabajarás con ellos a lo largo del desarrollo del proyecto, ya sea implementando nuevos módulos o añadiendo funcionalidades. Esto te permitirá estructurar y reutilizar el código de manera más eficiente y ordenada.
 
