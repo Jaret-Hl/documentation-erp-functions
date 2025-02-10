@@ -13,15 +13,25 @@ Ten en cuenta que, según el concepto de un módulo, trabajarás con ellos a lo 
 ```javascript
 /* ../modules/file.js */
 
-// encapsula las variables para no ocasionar errores en otros módulos
+// Autoinvocación para encapsular variables y evitar conflictos con otros módulos
 (function () {
-    // ... Inicializa la funcion principal
-    
-    /* 
-        ... Crea las funciones de acuerdo a tu lógica
-    */
-    
+    "use strict"; // Habilita el modo estricto para mayor seguridad y mejores prácticas
+
+    // Inicializa la función principal del módulo
+    function init() {
+        console.log("Módulo cargado correctamente");
+        // Llama a otras funciones si es necesario
+    }
+
+    // Define las funciones de acuerdo con la lógica del módulo
+    function exampleFunction() {
+        console.log("Ejemplo de función dentro del módulo");
+    }
+
+    // Ejecuta la inicialización
+    init();
 })();
+
 ```
 
 {% hint style="info" %}
