@@ -10,17 +10,21 @@ En JavaScript, un módulo es un archivo que contiene funciones, clases o bibliot
 
 Ten en cuenta que, según el concepto de un módulo, trabajarás con ellos a lo largo del desarrollo del proyecto, ya sea implementando nuevos módulos o añadiendo funcionalidades. Esto te permitirá estructurar y reutilizar el código de manera más eficiente y ordenada.
 
-```markdown
-# Heading
+```javascript
+/* ../modules/file.js */
 
-This is some paragraph text, with a [link](https://docs.gitbook.com) to our docs. 
-
-## Heading 2
-- Point 1
-- Point 2
-- Point 3
+// encapsula las variables para no ocasionar errores en otros módulos
+(function () {
+    // ... Inicializa la funcion principal
+    
+    /* 
+        ... Crea las funciones de acuerdo a tu lógica
+    */
+    
+})();
 ```
 
 {% hint style="info" %}
-If you have multiple files, GitBook makes it easy to import full repositories too — allowing you to keep your GitBook content in sync.
+Si cuentas con mas módulos, puedes crear nuevos e importarlos al módulo que tu requieras.\
+Toma en cuenta que debes llamar correctamente el modulo en la vista que lo requieras y configurar el script tipo "**module**".
 {% endhint %}
