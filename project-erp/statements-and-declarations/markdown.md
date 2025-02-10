@@ -2,13 +2,13 @@
 icon: markdown
 ---
 
-# Markdown
+# Modulos
 
-GitBook supports many different types of content, and is backed by Markdown — meaning you can copy and paste any existing Markdown files directly into the editor!
+En JavaScript, un módulo es un archivo que contiene funciones, clases o bibliotecas para un objetivo específico. Los módulos permiten organizar el código en partes reutilizables, lo que facilita su mantenimiento y mejora la legibilidad.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/markdown-hero.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modules.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Feel free to test it out and copy the Markdown below by hovering over the code block in the upper right, and pasting into a new line underneath.
+Ten en cuenta que, según el concepto de un módulo, trabajarás con ellos a lo largo del desarrollo del proyecto, ya sea implementando nuevos módulos o añadiendo funcionalidades. Esto te permitirá estructurar y reutilizar el código de manera más eficiente y ordenada.
 
 ```markdown
 # Heading
