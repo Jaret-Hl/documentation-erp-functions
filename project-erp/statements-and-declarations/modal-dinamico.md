@@ -63,10 +63,45 @@ customElements.define(
 
 #### 🛠️ **Instrucciones de implementación**
 
-1. &#x20;**Asegúrate de tener Bootstrap 5 cargado**\
+1. **Asegúrate de tener Bootstrap 5 cargado**\
    Incluye en tu plantilla principal o layout:
-2. Agregar el componente personalizado
-3. Abrir con JavaScript
+2. **Agregar el componente personalizado con JavaScript**
+
+```javascript
+const divModal = document.createElement("div");
+divModal.innerHTML = `
+  <modal-dinamico data-size="xl" data-id="modal_preview" data-title="Vista Previa" data-body="modal_preview_body"></modal-dinamico>
+`;
+document.body.appendChild(divModal);
+```
+
+3. **Inicializar el modal**
+
+```javascript
+const modalInstance = new bootstrap.Modal(document.getElementById("modal_preview"));
+modalInstance.show();
+```
+
+4. **Inyecta contenido dinámico al cuerpo del modal**
+
+```javascript
+const modalBody = document.getElementById("modal_preview_body");
+modalBody.innerHTML = data;
+```
+
+5. **Agrega evento para cerrar y destruir el modal**
+
+```javascript
+const closeButton = divModal.querySelector('[data-bs-dismiss="modal"]');
+closeButton.addEventListener("click", function () {
+    modalInstance.hide();
+    divModal.remove();
+});
+```
+
+{% hint style="info" %}
+Este paso es clave: una vez que el usuario cierra el modal, eliminas el nodo HTML del DOM. Así evitas **acumular modales** en memoria (un buen manejo de recursos).
+{% endhint %}
 
 {% hint style="success" %}
 #### 📦 Resultado
