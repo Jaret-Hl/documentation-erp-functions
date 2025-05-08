@@ -59,12 +59,18 @@ customElements.define(
 
     Se crea un `div` que contiene el modal en formato Bootstrap 5 y se inyecta al DOM automáticamente.
 
-
+***
 
 #### 🛠️ **Instrucciones de implementación**
 
-1. **Asegúrate de tener Bootstrap 5 cargado**\
-   Incluye en tu plantilla principal o layout:
+1. **Asegúrate de tener Bootstrap 5 cargado y el modal**
+
+```html
+<!-- En tus scripts puedes cargar Bootstrap 5 -->
+<!-- Sino cargalos en donde los necesites -->
+<script src="<?= base_url("assets/js/modulos/components/modal-dinamico.js") ?>" defer></script>
+```
+
 2. **Agregar el componente personalizado con JavaScript**
 
 ```javascript
