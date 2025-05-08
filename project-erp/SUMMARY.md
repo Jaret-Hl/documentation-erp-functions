@@ -11,7 +11,7 @@
 
 * [Modulos](statements-and-declarations/markdown.md)
 * [Colecciones](statements-and-declarations/editor.md)
-* [Images & media](statements-and-declarations/images-and-media.md)
+* [Modal Dinámico](statements-and-declarations/modal-dinamico.md)
 * [Interactive blocks](statements-and-declarations/interactive-blocks.md)
 * [OpenAPI](statements-and-declarations/openapi.md)
 * [Integrations](statements-and-declarations/integrations.md)
