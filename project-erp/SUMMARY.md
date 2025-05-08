@@ -15,3 +15,4 @@
 * [Interactive blocks](statements-and-declarations/interactive-blocks.md)
 * [OpenAPI](statements-and-declarations/openapi.md)
 * [Integrations](statements-and-declarations/integrations.md)
+* [Hoja de estilos](statements-and-declarations/hoja-de-estilos.md)

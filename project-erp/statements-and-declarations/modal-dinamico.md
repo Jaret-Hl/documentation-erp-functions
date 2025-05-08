@@ -1,6 +1,6 @@
 ---
 description: 📌 Descripción general del código
-icon: image-landscape
+icon: rectangle-terminal
 ---
 
 # Modal Dinámico
