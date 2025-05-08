@@ -46,25 +46,30 @@ customElements.define(
 
 1.  **`customElements.define(...)`**
 
-    Registra un nuevo elemento personalizado llamado `<modal-dinamico>`. Cualquier vez que uses esa etiqueta en el HTML, se ejecutará la clase definida.\
-
-2.  **Constructor de la clase**
-
-    \
-    Dentro del constructor:
-
-    * Se leen los atributos HTML del componente:
-      * `data-id`: ID del modal (para abrirlo con JavaScript).
-      * `data-title`: Título que se mostrará en el encabezado.
-      * `data-body`: ID del contenedor de contenido principal del modal.
-      * `data-footer`: ID del pie del modal (por si quieres insertar botones).
-      * `data-size`: Tamaño del modal (`sm`, `lg`, `xl`, etc.).
+    Registra un nuevo elemento personalizado llamado `<modal-dinamico>`. Cualquier vez que uses esa etiqueta en el HTML, se ejecutará la clase definida.
+2. **Constructor de la clase**\
+   Dentro del constructor:
+   * Se leen los atributos HTML del componente:
+     * `data-id`: ID del modal (para abrirlo con JavaScript).
+     * `data-title`: Título que se mostrará en el encabezado.
+     * `data-body`: ID del contenedor de contenido principal del modal.
+     * `data-footer`: ID del pie del modal (por si quieres insertar botones).
+     * `data-size`: Tamaño del modal (`sm`, `lg`, `xl`, etc.).
 3.  **Creación dinámica del modal**
 
     Se crea un `div` que contiene el modal en formato Bootstrap 5 y se inyecta al DOM automáticamente.
 
 
 
-{% hint style="info" %}
-You can also add images simply by copying and pasting them directly into the editor — and GitBook will automatically add it to your file manager.
+#### 🛠️ **Instrucciones de implementación**
+
+1. &#x20;**Asegúrate de tener Bootstrap 5 cargado**\
+   Incluye en tu plantilla principal o layout:
+2. Agregar el componente personalizado
+3. Abrir con JavaScript
+
+{% hint style="success" %}
+#### 📦 Resultado
+
+Esto genera un modal dinámico reutilizable, en el que puedes cambiar el contenido fácilmente solo pasando los parámetros desde JavaScript. Ideal para trabajar con **vistas CodeIgniter** que cargan datos en tablas, formularios, etc.
 {% endhint %}
